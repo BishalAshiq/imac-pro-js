@@ -3,3 +3,34 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Buttons */
+.memory:hover{
+   background-color: black;
+   color: blanchedalmond;
+}
+.storage:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.delivery:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+/* Promo Code button */
+.promo{
+    background-color: chocolate;
+    color: blanchedalmond;
+    padding: 3px 10px;
+    border-radius: 6px;
+}
+.promo:hover{
+    background-color: brown;
+}
+
+/* Total */
+.total-last{
+    margin-left: 40%;
+}
