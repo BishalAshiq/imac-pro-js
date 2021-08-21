@@ -23,6 +23,7 @@ const total = document.getElementById('total-price');
 
 realPrice.addEventListener('click', function(){
     originalPrice.innerText = '1299';
+    totalUpdate()
 })
 
 memory1.addEventListener('click', function(){
