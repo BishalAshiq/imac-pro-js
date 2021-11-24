@@ -63,6 +63,7 @@ function totalUpdate(){
     const productPrice1 = parseInt(extraMemory.innerText);
     const productPrice2 = parseInt(extraStorage.innerText);
     const authenticPrice = parseInt(originalPrice.innerText);
+    
     const grandTotal = deliveryCharge + productPrice1 + productPrice2 + authenticPrice;
     total.innerText = grandTotal;
 }
